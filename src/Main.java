@@ -4,7 +4,8 @@ public class Main {
         Fridge fridge =new Fridge( "fridge wirpool", "fridge avec congelo et ventilé", 220,120,true);
         Product cafiere= new Product("cafière","nespresso",10);
         Customer customer=new Customer("dupond", "2 rue de la gare 75001 Paris");
-        Bill bill=new Bill(customer);
+        Delivery relaisDelivery = new RelayDelivery(45);
+        Bill bill=new Bill(customer,relaisDelivery);
         bill.addProduct(television,1);
         bill.addProduct(fridge,1);
         bill.addProduct(cafiere,1);

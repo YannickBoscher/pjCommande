@@ -12,4 +12,9 @@ public class deliveryExpress implements Delivery {
             return 6.99;
         }
     }
+
+    @Override
+    public String getInfo() {
+        return "delivery express";
+    }
 }

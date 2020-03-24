@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9729d726-3922-47d0-9360-85f8d4ef4a3f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Writer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BillTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pjCommande/Bill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pjCommande/Bill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pjCommande/Delivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pjCommande/Delivery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pjCommande/DirectDelivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pjCommande/DirectDelivery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pjCommande/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pjCommande/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pjCommande/RelayDelivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pjCommande/RelayDelivery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pjCommande/TakeAwayDelivery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pjCommande/TakeAwayDelivery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/pjCommande/deliveryExpress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/pjCommande/deliveryExpress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DirectDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DirectDelivery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RelayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelayDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TakeAwayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TakeAwayDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deliveryExpress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deliveryExpress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,32 +67,31 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.deliveryExpressTest.getPrice_otherCountryCityDeliveryExpress_6d99">
-    <configuration name="RelayDeliveryTest.get_shouldReturnPrice_RelayDelivery1_22" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BillTest.Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber">
+    <configuration name="BillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pjCommande" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RelayDeliveryTest" />
-      <option name="METHOD_NAME" value="get_shouldReturnPrice_RelayDelivery1_22" />
+      <option name="MAIN_CLASS_NAME" value="BillTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillTest.Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pjCommande" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BillTest" />
+      <option name="METHOD_NAME" value="Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelayDeliveryTest.get_shouldReturnPrice_RelayDelivery23_47" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BillTest.Given_3productsAndDelivery_When_generatingBill_Then_getGoodTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pjCommande" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RelayDeliveryTest" />
-      <option name="METHOD_NAME" value="get_shouldReturnPrice_RelayDelivery23_47" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RelayDeliveryTest.get_shouldReturnPrice_RelayDelivery48_more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pjCommande" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RelayDeliveryTest" />
-      <option name="METHOD_NAME" value="get_shouldReturnPrice_RelayDelivery48_more" />
+      <option name="MAIN_CLASS_NAME" value="BillTest" />
+      <option name="METHOD_NAME" value="Given_3productsAndDelivery_When_generatingBill_Then_getGoodTotal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BillTest.Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber" />
+        <item itemvalue="JUnit.BillTest.Given_3productsAndDelivery_When_generatingBill_Then_getGoodTotal" />
+        <item itemvalue="JUnit.BillTest" />
         <item itemvalue="JUnit.deliveryExpressTest.getPrice_otherCountryCityDeliveryExpress_6d99" />
         <item itemvalue="JUnit.deliveryExpressTest.getPrice_parisCityDeliveryExpress_4d99" />
-        <item itemvalue="JUnit.RelayDeliveryTest.get_shouldReturnPrice_RelayDelivery1_22" />
-        <item itemvalue="JUnit.RelayDeliveryTest.get_shouldReturnPrice_RelayDelivery48_more" />
-        <item itemvalue="JUnit.RelayDeliveryTest.get_shouldReturnPrice_RelayDelivery23_47" />
       </list>
     </recent_temporary>
   </component>
@@ -131,33 +145,63 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="365" y="67" key="#ProductTest/0.0.1536.824@0.0.1536.824" timestamp="1584983311588" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1584985241256">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1585059541590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584985241256" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584992829548">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585059541590" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585062067735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584992829548" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584992829548">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585062067735" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585062067735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584992829548" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584992829548">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585062067735" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585062067735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584992829548" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584992829548">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585062067735" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585062067735">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584992829548" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585062067735" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585062048655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585062048655" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585062048655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585062048655" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585062048655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585062048655" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585062048655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585062048655" />
     <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1584695851205">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1584695851205" />
-    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584985268486">
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585047136985">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1584985268486" />
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1585047136985" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/BillTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pjCommande$BillTest_Given_3productsAndDelivery_When_generatingBill_Then_getGoodTotal.ic" NAME="BillTest.Given_3productsAndDelivery_When_generatingBill_Then_getGoodTotal Coverage Results" MODIFIED="1585048835578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
